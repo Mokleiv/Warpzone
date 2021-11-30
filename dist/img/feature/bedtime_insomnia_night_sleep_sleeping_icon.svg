@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<svg enable-background="new 0 0 500 500" 
+id="Layer_2" 
+version="1.1" 
+viewBox="0 0 500 500" 
+xml:space="preserve" 
+xmlns="http://www.w3.org/2000/svg" 
+xmlns:xlink="http://www.w3.org/1999/xlink">
+<g>
+<g>
+<g>
+<circle cx="238.73" cy="104.599" fill="none" r="45.738" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="15"/>
+<path d="     M264.272,237.061l-9.504,55.836l65.263,11.93c21.681,3.963,32.524,28.55,20.831,47.233L259.6,474.792     c-5.415,8.652-16.563,11.703-25.629,7.013h0c-9.997-5.171-13.599-17.677-7.883-27.373l67.884-106.887l-88.489-0.542     c-27.422-1.641-47.829-25.992-44.648-53.278l19.42-97.808c3.446-17.355,11.026-33.623,22.098-47.424l7.054-8.793" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="15"/>
+<path d="     M229.82,174.097l51.084,23.76l23.591-66.842c2.809-7.957,11.116-12.565,19.354-10.735l0,0     c9.508,2.113,15.192,11.886,12.328,21.195l-26.419,85.861c-3.423,11.126-15.436,17.147-26.399,13.232l-63.043-22.515" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="15"/>
+<line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="15" x1="225.068" x2="254.768" y1="286.957" y2="292.897"/>
+</g>
+<path d="    M252.392,347.305l-55.924,85.813c-5.836,9.787-2.551,22.455,7.304,28.174l0,0c0,0,7.625,4.94,19.212,3.809" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="15"/>
+</g>
+<path d="   M349.642,172.67c5.342-1.307,10.424-2.96,15.105-5.024l2.394,0.815c6.363,2.166,11.549-5.406,7.23-10.556l-5.816-6.935   c0,0,8.446-17.074,8.446-54.456s-8.446-57.979-8.446-57.979l5.384-5.521c4.622-4.739,0.224-12.583-6.23-11.114l-6.609,1.505   c0,0-54.726-11.635-97.406,1.801c-12.84,4.042-26.544,4.042-39.384,0c-42.681-13.437-97.406-1.801-97.406-1.801l-6.609-1.505   c-6.455-1.47-10.852,6.374-6.23,11.114l5.384,5.521c0,0-8.446,20.596-8.446,57.979s8.446,54.456,8.446,54.456l-5.816,6.935   c-4.319,5.15,0.867,12.722,7.23,10.556l2.394-0.815c10.21,4.504,22.331,7.05,34.892,8.311" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="15"/>
+</g>
+</svg>

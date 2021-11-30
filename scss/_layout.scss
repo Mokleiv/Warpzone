@@ -1,0 +1,88 @@
+#header-container {
+    background: var(--gradient-header), url("../img/header/cover.jpg");
+    clip-path: polygon(0 0, 100% 0%, 100% 84%, 0 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 95vh;
+}
+
+#e-sport {
+    background: var(--black2);
+    margin-top: -15.5rem;
+    min-height: 120vh;
+
+    @media only screen and(min-width: 156.25em) {
+        margin-top: -18rem;
+        min-height: 130vh;
+    }
+
+    @media only screen and(max-width: 100em) {
+        min-height: 125vh;
+    }
+
+    @media only screen and(max-width: 81.25em) {
+        min-height: 530vh;
+    }
+
+    @media only screen and(max-width: 75em) {
+        min-height: 0;
+    }
+}
+
+#feature {
+    background: #2c2d33;
+    min-height: 100vh;
+
+    @media only screen and(max-width: 100em) {
+        min-height: 110vh;
+    }
+
+    @media only screen and(max-width: 93.75em) {
+        min-height: 150vh;
+    }
+
+    @media only screen and(max-width: 68.75em) {
+        min-height: 130vh;
+    }
+}
+
+#program {
+    background: var(--black2);
+    min-height: 80vh;
+
+    @media only screen and(max-width: 100em) {
+        min-height: 90vh;
+    }
+
+    @media only screen and(max-width: 68.75em) {
+        min-height: 80vh;
+    }
+}
+
+#partners {
+    background: var(--black3);
+    min-height: 75vh;
+
+    @media only screen and(max-width: 100em) {
+        min-height: 85vh;
+    }
+}
+
+#maps {
+    background: var(--black2);
+    min-height: 75vh;
+    border-bottom: 2px dashed var(--black3);
+
+    @media only screen and(max-width: 87.5em) {
+        min-height: 115vh;
+    }
+
+    @media only screen and(max-width: 68.75em) {
+        min-height: 100vh;
+    }
+}
+
+footer {
+    background: var(--black2);
+    min-height: 25vh;
+}

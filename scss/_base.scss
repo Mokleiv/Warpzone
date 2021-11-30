@@ -1,0 +1,126 @@
+:root {
+    --red: #fc575e;
+    --yellow: #f7b42c;
+    --turquoise: #00c898;
+    --white: #fff;
+    --black: #12181b;
+    --black2: #202125;
+    --black3: #43464e;
+    --fssmall: 1.6rem;
+    --fsmedium: 2rem;
+    --fslarge: 2.4rem;
+    --fsxlarge: 3rem;
+
+    --gradient-header: linear-gradient(
+        to left top,
+        #000000d8,
+        #0c0b0bd8,
+        #141314d8,
+        #1b191ad8,
+        #211f21d8,
+        #262327d8,
+        #2b272dd8,
+        #2f2c33d8,
+        #31303a,
+        #313442,
+        #303949,
+        #2c3e50
+    );
+
+    --gradient-main: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+}
+
+/* ********************************************* */
+/* Full page reset. Credits to                   */
+/* https://piccalil.li/blog/a-modern-css-reset/  */
+/* ********************************************* */
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+ul[role="list"],
+ol[role="list"] {
+    list-style: none;
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 1rem = 10px
+
+    @media only screen and(max-width: 68.75em) {
+        font-size: 50%;
+    }
+
+    @media only screen and(min-width: 130em) {
+        font-size: 75%;
+    }
+
+    @media only screen and(max-width: 75em) {
+        font-size: 55%;
+    }
+}
+
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--clr-white);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
